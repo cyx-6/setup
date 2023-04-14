@@ -1,4 +1,4 @@
-sudo apt install build-essential
+sudo apt install build-essential ccache
 # https://apt.llvm.org/
 sudo apt install clang-15 lldb-15 lld-15
 # https://docs.conda.io/en/latest/miniconda.html
