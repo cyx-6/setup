@@ -9,3 +9,6 @@ conda create -n python310 python=3.10
 pip3 install cmake
 conda install -c anaconda numpy scipy decorator pytest
 conda install -c conda-forge psutil typing-extensions black
+
+# llm
+pip3 install transformers safetensors

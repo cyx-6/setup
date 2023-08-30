@@ -9,6 +9,8 @@ fi
 rm -r build
 mkdir build
 cd build
-ln -s ../../config.cmake .
+cp ../cmake/config.cmake .
+echo "set(USE_LLVM ON)" >> config.cmake
+echo "set(USE_CUDA ON)" >> config.cmake
 cmake ..
 make -j24
